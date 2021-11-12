@@ -34,9 +34,11 @@ function animate() {
 
 function swapPhoto() {
 	//Add code here to access the #slideShow element.
+
 	//Access the img element and replace its source
-	//with a new image from your images array which is loaded
-	//from the JSON string
+mImages.getElementByID('photo');
+	//with a new image from your images array which is loaded from the JSON string
+
 	console.log('swap photo');
 }
 
@@ -85,7 +87,7 @@ $(document).ready( function() {
 
 	// This initially hides the photos' metadata information
 	$('.details').eq(0).hide();
-
+  function GalleryImage();
 });
 
 window.addEventListener('load', function() {
