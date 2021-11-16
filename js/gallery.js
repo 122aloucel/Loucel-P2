@@ -65,16 +65,16 @@ mRequest.send();
 var mImages = [];
 function iterateJSON() {
   for (let x = 0; x < mImages.length; x++) {
-  text += iterateJSON.mImages[x].imgLocation + "<br>";
+  text += mJSON.mImages[x].imgLocation + "<br>";
 }
 for (let x = 0; x < mImages.length; x++) {
-text += iterateJSON.mImages[x].description + "<br>";
+text += mJSON.mImages[x].description + "<br>";
 }
 for (let x = 0; x < mImages.length; x++) {
-text += iterateJSON.mImages[x].date + "<br>";
+text += mJSON.mImages[x].date + "<br>";
 }
 for (let x = 0; x < mImages.length; x++) {
-text += iterateJSON.mImages[x].imgPath + "<br>";
+text += mJSON.mImages[x].imgPath + "<br>";
 }
 };
 // Holds the retrived JSON information
@@ -95,10 +95,13 @@ function makeGalleryImageOnloadCallback(galleryImage) {
 }
 
 $(document).ready( function() {
+fetchJSON(){
+  if iterateJSON() = mJSON
+}
 
 	// This initially hides the photos' metadata information
-	$('.details').eq(0).hide();
-  function GalleryImage();
+	//$('.details').eq(0).hide();
+
 });
 
 window.addEventListener('load', function() {
