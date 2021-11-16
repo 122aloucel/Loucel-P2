@@ -33,15 +33,14 @@ function animate() {
 /************* DO NOT TOUCH CODE ABOVE THIS LINE ***************/
 
 function swapPhoto() {
-	//Add code here to access the #slideShow element.
-
+	//Add code here to access the #slideShow element
 	//Access the img element and replace its source
-document.getElementById('photo').innerHTML = "Photo" + mImages[mCurrentIndex].photo;
+document.getElementById('photo').src = mImages[mCurrentIndex].photo;
 document.getElementsByClassName('location').innerHTML = "Location" + mImages[mCurrentIndex].location;
 document.getElementsByClassName('description').innerHTML = "Description" + mImages[mCurrentIndex].description;
 document.getElementsByClassName('date').innerHTML = "Date" + mImages[mCurrentIndex].date;
-	//with a new image from your images array which is loaded from the JSON string
-
+	//with a new image from your images array which is loaded
+  //from the JSON string
 	console.log('swap photo');
 }
 
@@ -54,7 +53,7 @@ var mRequest = new XMLHttpRequest();
 request.addEventListener("readystatechange", () => {
   //console.log(request, request.readyState);
   if (mRequest.readyState === 4 && mRequest.status === 200){
-    const data = JSON.parse(mRequest.responseText);
+    mJSON data = JSON.parse(mRequest.responseText);
     console.log(data);
     else if(mRequest.readyState === 4){
     console.log('could not fetch data');
