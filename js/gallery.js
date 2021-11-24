@@ -102,7 +102,7 @@ mImages.push(galleryImage);
 
 $(document).ready( function() {
   fetchJSON();
-// This initially hides the photos' metadata information
+// This initially hides the photos' metadata information rick mort
 // $('.details').eq(0).hide();
 });
 
@@ -111,6 +111,28 @@ window.addEventListener('load', function() {
 console.log('window loaded');
 
 }, false);
+
+$(img).hasClass("moreIndicator").click(function() {
+  if ("rot90"){
+      removeClass("rot90")
+      addClass("rot270")
+  }
+  else () {
+    removeClass("rot270")
+    addClass("rot90")
+  }
+});
+
+$(div).hasClass("details").click(function(){
+  if ("rot90") {
+    slideToggle(up);
+  }
+  else (down){
+
+  }
+}
+
+)
 
 function GalleryImage() {
 //implement me as an object to hold the following data about an image:
