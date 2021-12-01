@@ -1,0 +1,31 @@
+"images": [
+    {
+        "imgPath": "img/extra/bogart.jpg",
+        "imgLocation": "hell",
+        "description": "it's where you go after you die if you were bad",
+        "date": "12/1/21"
+    },
+    {
+        "imgPath": "img/extra/football.jpg",
+        "imgLocation": "house",
+        "description": "kitty cat",
+        "date": "11/11/1111"
+    },
+    {
+        "imgPath": "img/extra/lad.jpg",
+        "imgLocation": "concert",
+        "description": "screaming fella",
+        "date": "04/20/1870"
+    },
+    {
+        "imgPath": "img/extra/thisprojectsucks.png",
+        "imgLocation": "Elmore, California",
+        "description": "that one house, you know the one",
+        "date": "05/03/2011"
+    },
+    {
+        "imgPath": "img/extra/escapehungary.jpg",
+        "imgLocation": "hungary",
+        "description": "aggravated hungarian",
+        "date": "02/16/2005"
+    }]
